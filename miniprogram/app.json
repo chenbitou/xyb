@@ -1,0 +1,101 @@
+{
+	"pages": [
+		"projects/meetcar/pages/default/index/default_index",
+		"projects/meetcar/pages/about/list/about_list",
+		"projects/meetcar/pages/about/index/about_index",
+		"projects/meetcar/pages/search/search",
+		"projects/meetcar/pages/my/index/my_index",
+		"projects/meetcar/pages/my/reg/my_reg",
+		"projects/meetcar/pages/my/edit/my_edit",
+		"projects/meetcar/pages/my/foot/my_foot",
+		"projects/meetcar/pages/my/fav/my_fav",
+		"projects/meetcar/pages/news/index/news_index",
+		"projects/meetcar/pages/news/detail/news_detail",
+		"projects/meetcar/pages/news/cate1/news_cate1",
+		"projects/meetcar/pages/news/cate2/news_cate2",
+		"projects/meetcar/pages/admin/news/list/admin_news_list",
+		"projects/meetcar/pages/admin/news/add/admin_news_add",
+		"projects/meetcar/pages/admin/news/edit/admin_news_edit",
+		"projects/meetcar/pages/admin/setup/about/admin_setup_about",
+		"projects/meetcar/pages/admin/setup/about_list/admin_setup_about_list",
+		"projects/meetcar/pages/admin/setup/qr/admin_setup_qr",
+		"projects/meetcar/pages/admin/index/home/admin_home",
+		"projects/meetcar/pages/admin/index/login/admin_login",
+		"projects/meetcar/pages/admin/content/admin_content",
+		"projects/meetcar/pages/admin/mgr/log/admin_log_list",
+		"projects/meetcar/pages/admin/mgr/edit/admin_mgr_edit",
+		"projects/meetcar/pages/admin/mgr/list/admin_mgr_list",
+		"projects/meetcar/pages/admin/mgr/add/admin_mgr_add",
+		"projects/meetcar/pages/admin/mgr/pwd/admin_mgr_pwd",
+		"projects/meetcar/pages/admin/user/list/admin_user_list",
+		"projects/meetcar/pages/admin/user/detail/admin_user_detail",
+		"projects/meetcar/pages/admin/user/export/admin_user_export",
+		"projects/meetcar/pages/enroll/all/enroll_all",
+		"projects/meetcar/pages/enroll/join/enroll_join",
+		"projects/meetcar/pages/enroll/my_join_list/enroll_my_join_list",
+		"projects/meetcar/pages/enroll/my_join_detail/enroll_my_join_detail",
+		"projects/meetcar/pages/enroll/join_edit/enroll_join_edit",
+		"projects/meetcar/pages/admin/enroll/list/admin_enroll_list",
+		"projects/meetcar/pages/admin/enroll/add/admin_enroll_add",
+		"projects/meetcar/pages/admin/enroll/edit/admin_enroll_edit",
+		"projects/meetcar/pages/admin/enroll/join_list/admin_enroll_join_list",
+		"projects/meetcar/pages/admin/enroll/export/admin_enroll_export",
+		"projects/meetcar/pages/admin/enroll/temp/admin_enroll_temp",
+		"projects/meetcar/pages/admin/enroll/day/admin_enroll_day",
+		"projects/meetcar/pages/admin/enroll/record/admin_enroll_record",
+		"projects/meetcar/pages/admin/enroll/scan/admin_enroll_scan",
+		"cmpts/public/form/form_set/field/form_set_field",
+		"cmpts/public/form/form_show/content/form_show_content",
+		"pages/test1/test1"
+	],
+	"window": {
+		"backgroundColor": "#f1f1f1",
+		"backgroundTextStyle": "dark",
+		"navigationBarBackgroundColor": "#FFB531",
+		"navigationBarTitleText": "用车预约小程序",
+		"navigationBarTextStyle": "black"
+	},
+	"tabBar": {
+		"custom": false,
+		"backgroundColor": "#FFFFFF",
+		"color": "#999999",
+		"selectedColor": "#000000",
+		"list": [
+			{
+				"pagePath": "projects/meetcar/pages/default/index/default_index",
+				"text": "首页",
+				"iconPath": "/projects/meetcar/images/tabbar/home.png",
+				"selectedIconPath": "/projects/meetcar/images/tabbar/home_cur.png"
+			},
+			{
+				"pagePath": "projects/meetcar/pages/news/index/news_index",
+				"text": "最新通知",
+				"iconPath": "/projects/meetcar/images/tabbar/news.png",
+				"selectedIconPath": "/projects/meetcar/images/tabbar/news_cur.png"
+			},
+			{
+				"pagePath": "projects/meetcar/pages/enroll/my_join_list/enroll_my_join_list",
+				"text": "我的预订",
+				"iconPath": "/projects/meetcar/images/tabbar/day.png",
+				"selectedIconPath": "/projects/meetcar/images/tabbar/day_cur.png"
+			},
+			{
+				"pagePath": "projects/meetcar/pages/my/index/my_index",
+				"text": "我的",
+				"iconPath": "/projects/meetcar/images/tabbar/my.png",
+				"selectedIconPath": "/projects/meetcar/images/tabbar/my_cur.png"
+			}
+		]
+	},
+	"permission": {
+		"scope.userLocation": {
+			"desc": "获取你当前位置信息用于小程序位置接口的效果展示"
+		}
+	},
+	"usingComponents": {
+		"cmpt-comm-list": "/cmpts/public/list/comm_list_cmpt",
+		"cmpt-picker": "/cmpts/public/picker/picker_cmpt",
+		"cmpt-modal": "/cmpts/public/modal/modal_cmpt"
+	},
+	"sitemapLocation": "sitemap.json"
+}
